@@ -1,0 +1,351 @@
+
+body{
+    padding: 0;
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blur{
+    float: left;
+    background-image: url(./assets/images/5xirqoi1mpy61.png);
+    height: 800px;
+    width: 400px;
+}
+
+.loo{
+    padding-top: 200px;
+    
+}
+
+.right h1 { 
+    float: left;
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 50px;
+    color: black;
+    font-size: 70px;
+    font-weight: bolder;   
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 40px; 
+}
+
+.right p{
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px; 
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.sign{
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+   
+
+}
+
+.sign a{
+    padding-left: 30px;
+    color: rgb(43, 29, 29);
+    text-decoration: none;  
+    margin-left: -10px;
+    font-weight: bold;  
+}
+
+.sign a:hover{
+    text-decoration: none;
+    color: rgb(43, 29, 29);
+
+}
+
+
+.apple{
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.apple a{
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;  
+    margin-left: -10px;
+    font-weight: bold;  
+}
+
+.apple a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+.apple:hover{
+    background-color: rgb(168, 167, 167);
+}
+
+
+.or{
+    padding-top: 70px !important;
+    margin-left: -200px !important;
+    font-weight:normal !important;
+    font-size: 14px !important;  
+    
+   
+}
+
+.sign-up{
+
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgba(43, 97, 179, 0.952);
+    color: white;
+    font-weight: bold;
+}
+
+.sign-up a:hover{
+    color: black;
+    text-decoration: none; 
+}
+
+.terms{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.head2{
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.another{
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color:rgba(43, 97, 179, 0.952); ;
+    font-weight: bold;
+}
+
+.another:hover{
+    background-color: rgba(135, 207, 235, 0.253);
+    text-decoration: none;
+}
+
+.footer{
+    /* display: flex; */
+    width: 100%; 
+    float: left;
+    
+}
+
+.footer a{
+    color: gray;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .blur{
+        height:200px;
+        width: 100%; 
+        /* margin-left: 40px;  */
+    
+    }
+
+    .loo{
+        height: 350px;
+        /* width: 30px; */
+        /* text-align: center; */
+        margin-left: -50px;
+        margin-top: -170px; 
+    }
+
+    .logo{
+
+        float: left;
+        height: 70px;
+        width: 70px;
+        margin-left: -10px;
+    }
+
+    .right h1{
+        font-size: 30px;
+        width: 100%;
+        margin-top: -20px;
+        padding-left:30px ;
+    }
+
+    .right p{
+        font-size: 20px;
+        margin-top: -20px;
+        padding-left: 30px;
+
+    }
+
+    .sign{
+        width: 80%;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .sign-up{
+        width: 80%;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .apple{
+        width: 80%;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .or{
+        margin-top: 2px !important;
+    }
+
+    .terms{
+        width: 85%;
+        margin-left: 30px;
+    }
+
+    .head2{
+        padding: 0;
+        line-height: 30px;
+        margin-left: 30px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .another{
+        width: 80%;
+        padding-left: 0;
+        margin-left: 30px;
+    }
+
+    .footer{
+        width: 80%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:1280px) {
+    .blur{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:377px) {
+    .blur{
+        height:200px;
+        width: 100%; 
+
+    }
+    
+}
+
+
+@media screen and (max-width:671px){
+    .blur{
+        width: 100%;
+    }
+
+    .right p{
+        width: 60%;
+    }
+
+    .sign{
+        width: 50%;
+    }
+
+    .apple{
+        width: 50%;
+    }
+
+
+    .sign-up{
+        width: 50%;
+    }
+
+    .terms{
+        width: 50%;
+    }
+
+    .another{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:677px){
+    .blur{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:691px){
+  .blur{
+    width: 100%;
+
+  } 
+}
+
+@media screen and (max-width:1650px){
+    .blur{
+        width: 40%;
+    }
+
+    .right p{
+        width: 60%;
+    }
+
+}
+
+
+
+
+   
+
