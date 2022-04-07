@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.leftbar{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* border-right: 1px solid rgba(128, 128, 128, 0.233); */
+    padding-right: 10px;
+    height: 800px;
+    width: 60px;
+    float: left;
+    position: fixed;
+    
+}
+
+.logo:hover{
+    background-color: rgba(171, 216, 236, 0.301);
+    border-radius: 100%;
+    padding: 12px 6px;
+}
+
+.hash:hover{
+    background-color: rgba(190, 183, 183, 0.185);
+    border-radius: 200%;
+    padding: 18px 10px;
+}
+
+.sub-leftbar{
+    float: left;
+    margin-left: 80px;
+    border-left: 1px solid rgb(214, 210, 210);
+    /* height: 630px; */
+    border-bottom: 1px solid rgb(214, 210, 210);
+    width: 31%;
+}
+
+.sub-leftbar h3{
+    color: black;
+    margin-left: 10px;
+}
+
+.sub-leftbar a{
+    color: gray;
+}
+
+.sub-leftbar a:hover{
+    text-decoration: none;
+}
+.bold{
+    font-weight: bolder;
+   
+
+}
+
+.first-bar:hover{
+    background-color: rgb(231, 231, 231) ;  
+}
+
+.first-bar{
+    padding-left: 10px;
+}
+
+
+.allow{
+    color: gray;
+    font-size: 12px;
+}
+
+#icon{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.personal{
+    width: 60%;
+    color: black;
+}
+
+.second-bar{
+    padding: 8px;
+    width: 100%;
+    color: black;
+}
+
+.second-bar a{
+    color: black;
+}
+
+.second-bar:hover{
+   
+    background-color: rgb(231, 231, 231) ;  
+    padding: 8px;
+    
+
+}
+
+#icon-first{
+    /* margin-right: 10px; */
+    margin-top: 10px;
+    float: right;
+    margin-right: 2px;
+}
+
+.para{
+    color: gray;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+.general{
+    width: 70%;
+    float: left;
+    margin-left: 80px;
+    color: black;  
+    border-left: 1px solid rgb(214, 210, 210);
+}
+
+
+.paraa:hover{
+    background-color: rgb(231, 231, 231) ;  
+    width: 44%;
+
+}
+
+
+.general h3{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#icon-second{
+    float: none;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 36%;
+
+}
+
+.paraa{
+    color: gray;
+    font-weight: bold;
+    padding: 8px;
+}
+
+
+
+.middle{
+    margin-left: 38.7%;
+    border-left:  1px solid rgb(214, 210, 210);
+    border-right: 1px solid rgb(214, 210, 210);
+    position: absolute;
+    height: 640px;
+    width: 60%;
+}
+
+#arrow{ 
+    display: flex;
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+    float: left;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+
+.box-one h3{
+    color: black;
+    padding-left: 60px;
+    font-weight: bold;
+  
+}
+
+
+.first-child{
+    padding-top: 20px;
+
+}
+
+.first-child:hover{
+    background-color: rgba(235, 232, 232, 0.452);
+}
+
+
+.first-child a{
+    color: gray;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.first-child a:hover{
+    text-decoration: none;
+
+}
+
+.icon{
+    margin-left: 90%;
+}
+
+
+@media screen and (max-width:900px){
+    .sub-leftbar{
+        display:none;
+    }
+
+    .general{
+        display: none;
+    }
+
+    .middle{
+        margin-left: 100px;
+        width: 65%;
+    }
+
+
+
+    
+}
+
+
+    
