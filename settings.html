@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    
+    <link rel="stylesheet" href="./settings.css">
+
+    <title>Personalization and Settings</title>
+</head>
+<body>
+
+    <div class="leftbar">
+ 
+        <a href="../index.html"  class="logo"><img src="../assets/logos/twitter.png" alt="logo"
+         height="30" width="30"/></a><br><br>
+
+     
+       <a href="../explore/explore.html" class="hash"><img src="../assets/logos/4510810.png" alt="logo" 
+       height="30" width="30" data-toggle="tooltip" data-placement="bottom" title="Explore"/></a>
+       <br><br>
+
+
+       <a href="" class="hash"><img src="../assets/logos/set.png" alt="logo" 
+          height="30" width="30" data-toggle="tooltip" data-placement="bottom" title="Settings"/></a>
+          <br><br>  
+</div>
+
+    <div class="sub-leftbar">
+        <h3>Settings</h3>
+        <h3 class="bold">Privacy</h3>
+
+    <div class="first-bar">
+        <span  class="glyphicon glyphicon-chevron-right" id="icon"></span>
+       <a href="./settings.html"> <p class="personal">Personalization and data   <span class="allow">
+            Allow all</span></p></a>
+    </div>
+
+    <div class="second-bar">
+        <span  class="glyphicon glyphicon-chevron-right" id="icon-first"></span>
+        <a href="../twitter_data/data.html"><p>Your Twitter data </p></a> 
+    </div>
+
+    <p class="para">These settings apply to this browser or device while you’re logged out. They don’t have 
+        any effect when you’re logged in.</p>
+
+       
+    </div>
+
+    <div class="general">
+        <h3>General</h3>
+        <br>
+        <span  class="glyphicon glyphicon-chevron-right" id="icon-second"></span>
+
+       <a href="../additional/additional.html"> <p class="paraa">Additional Resources</p></a>
+    </div>
+
+<div class="middle">
+    <div class="form">
+        
+        <img src="../assets/logos/search.png" alt="logo" height="20" width="20">
+       
+         <input type="text"  name="search" id="search"placeholder="Search Twitter"data-toggle="popover" data-placement="bottom" 
+         data-content="Try searching for people, topics or keywords">   
+     </div>
+
+    <div class="box-one">
+
+      
+
+        <span class="glyphicon glyphicon-arrow-left" id="arrow"  
+         data-toggle="tooltip" data-placement="bottom" title="Back"></span>
+
+        
+
+        <h3>  Personalization and data </h3>
+
+        <p class="para-one">These settings apply to this browser or device while you’re logged out. They don’t 
+            have any effect when you’re logged in.</p>
+    </div>
+
+    <div class="box-two">
+        <p class="person">Personalization and data</p>
+        <p class="para-one">This will enable or disable all of the settings on this page.
+            <label class="switch">
+                <input type="checkbox" checked="checked">
+                <span class="slider"></span>
+            </label>
+        </p>
+    </div>
+
+    <div class="box-three">
+        <h3>Personalization</h3>
+        <br>
+        <p class="per">  Personalized ads <input type="checkbox" checked="check" id="check-two" ></p>
+        <p class="para-one"> You will always see ads on Twitter based on your Twitter activity.
+             When this setting is enabled, Twitter may further personalize ads
+              from Twitter advertisers, on and off Twitter, by combining your 
+              Twitter activity with other online activity and information from our
+               partners. <a href="https://help.twitter.com/en/safety-and-security/privacy-controls-for-tailored-ads">Learn More</a>
+        </p>
+
+     
+        <p class="per-one">Personalize based on your inferred identity 
+            <input type="checkbox" checked="check" id="check-one" >
+        </p>
+
+        <p class="para-one">Twitter will always personalize your experience based on information you’ve provided,
+             as well as the devices you’ve used to log in. When this setting is enabled, Twitter
+              may also personalize based on other inferences about your identity, like devices 
+              and browsers you haven’t used to log in to Twitter or email addresses and phone 
+              numbers similar to those linked to your Twitter account.
+              <a href="https://help.twitter.com/en/about-personalization-across-your-devices">Learn More</a>
+            </p>
+    </div>
+
+    <div class="box-four">
+        <h3>Data</h3>
+
+        <p class="per-one">Allow use of where you see Twitter content across the web
+            <input type="checkbox" checked="check" id="check-three" >
+        </p>
+
+        <p class="para-one">This setting lets Twitter keep track of your visits to other websites that integrate 
+            Twitter content, such as embedded timelines. That information makes Twitter better
+             for you, such as by personalizing your experience. This web browsing history will
+              never be stored with your name, email, or phone number. 
+              <a href="https://help.twitter.com/en/using-twitter/tailored-suggestions">Learn More</a>
+            </p>
+
+    </div>
+
+
+
+
+</div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+        });
+    </script>
+            
+          
+    
+    
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+    
+</body>
+</html>
